@@ -177,31 +177,31 @@ This query filters events to those occurring after the suspected script executio
 ## CHRONOLOGICAL EVENT TIMELINE
 
 ### Step 1 – Initial File Detection
-- **Timestamp:** 2025-07-08T20:32:03.908779Z  
+- **Timestamp:** `2025-07-08T20:32:03.908779Z`  
 - **Event:** Suspicious File Creation  
 - **Action:** `super_secret_script.sh` was created on the VM  
 - **File Path** `/home/bwillis/super_secret_script.sh` 
 
 ### Step 2 – Analyzing the Malicious Script
-- **Timestamp:** 2025-07-08T20:32:03.908779Z  
+- **Timestamp:** `2025-07-08T20:32:03.908779Z`  
 - **Event:** Malicious Script Creation and Modification  
 - **Action:** `touch super_secret_script.sh` followed by `nano super_secret_script.sh`  
 - **File Path** `/bin/bash ./super_secret_script.sh`  
 
 ### Step 3 – Investigating Privilege Escalation
-- **Timestamp:** 2025-07-08T20:55:51.469559Z  
+- **Timestamp:** `2025-07-08T20:55:51.469559Z` 
 - **Event:** Escalation of user privileges  
 - **Action:** `usermod -aG sudo badactor` executed to add user to sudo group  
 - **File Path** N/A  
 
 ### Step 4 – Search for Script Execution
-- **Timestamp:** 2025-07-08T20:55:51.372756Z  
+- **Timestamp:** `2025-07-08T20:55:51.372756Z`  
 - **Event:** Execution of malicious script and data exfiltration begins  
 - **Action:** `/bin/bash ./super_secret_script.sh` runs script; Azure CLI uploads data to blob storage  
 - **File Path** `/home/bwillis/.secret_data/.my_secret_file.txt --name test_file`  
 
 ### Step 5 – Verifying Network Activity
-- **Timestamp:** 2025-07-08T20:55:52.847203Z  
+- **Timestamp:** `2025-07-08T20:55:52.847203Z`  
 - **Event:** Network Connection Established  
 - **Action:** `ConnectionRequest` and `ConnectionSuccess` events to Azure Blob Storage  
 - **File Path** N/A 

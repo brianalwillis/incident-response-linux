@@ -1,4 +1,4 @@
-<h1 align="center">🕵️‍♀️ INCIDENT RESPONSE REPORT</h1>
+<h1 align="center">INCIDENT RESPONSE REPORT</h1>
 <h1 align="center">ESCALATION OF PRIVILEGES & DATA EXFILTRATION</h1>
 
 <p align="center">

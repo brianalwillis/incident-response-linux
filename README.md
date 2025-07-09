@@ -22,7 +22,7 @@
 
 ---
 
-## [SCENARIO CREATION](https://github.com/brianalwillis/threat-hunting-scenario-tor/blob/main/scenario-creation)
+## [SCENARIO CREATION](https://github.com/brianalwillis/incident-response-linux/blob/main/scenario-creation.md)
 
 ##  SCENARIO OVERVIEW
 

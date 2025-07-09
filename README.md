@@ -1,5 +1,5 @@
 <h1 align="center">🕵️‍♀️ INCIDENT RESPONSE REPORT</h1>
-<h1 align="center">ESCALATION OF PRIVILEGES & DATA EXFILTRATION (LINUX)</h1>
+<h1 align="center">ESCALATION OF PRIVILEGES & DATA EXFILTRATION</h1>
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/a0adf9a5-0da7-4f59-a5d6-6615358b3f41" alt="Linux" />
@@ -9,7 +9,7 @@
 ## 🛠️ TECHNOLOGY & TOOLS UTILIZED
 
 - **`Microsoft Azure:`**  
-  Linux virtual machines were hosted on Azure. Azure Storage and Containers were also utilized for deployment and data handling.
+  Linux virtual machines were hosted on Azure, with Azure Storage and Containers employed to support deployment and facilitate the simulated data exfiltration.
 
 - **`Microsoft Defender for Endpoint:`**  
   Used as the primary Endpoint Detection & Response (EDR) solution to monitor and protect the environment.

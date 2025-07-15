@@ -1,5 +1,5 @@
 <h1 align="center">𝙸𝙽𝙲𝙸𝙳𝙴𝙽𝚃 𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙴 𝚁𝙴𝙿𝙾𝚁𝚃</h1>
-<h2 align="center">ESCALATION OF PRIVILEGES & DATA EXFILTRATION</h2>
+<h2 align="center">Escalation of Privileges and Data Exfiltration</h2>
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/a0adf9a5-0da7-4f59-a5d6-6615358b3f41" alt="Linux" />
